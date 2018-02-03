@@ -1,0 +1,57 @@
+{
+	"primaryNav": {
+		"getQuote": {
+			"styleModifier": "c-primary-nav__item--highlight js-get-quote",
+			"buttonText": "Get Quote"
+		},
+		"navItems": [
+			{
+				"url": "link.pages-windshield-repairs",
+				"label": "Glass Services"
+			},
+			{
+				"url": "link.pages-windshield-repairs",
+				"label": "Vinyl Graphics"
+			},
+			{
+				"url": "link.pages-windshield-repairs",
+				"label": "Products"
+			},
+			{
+				"url": "link.pages-windshield-repairs",
+				"label": "Gallery"
+			},
+			{
+				"url": "link.pages-windshield-repairs",
+				"label": "Contact"
+			}
+		]
+	},
+	"footerNav": [
+		{
+			"styleModifier": "c-primary-nav__item--highlight",
+			"url": "link.pages-services",
+			"label": "Get Quote"
+		},
+		{
+			"url": "link.pages-windshield-repairs",
+			"label": "Auto Services"
+		},
+		{
+			"url": "link.pages-windshield-repairs",
+			"label": "Window Tint"
+		},
+		{
+			"url": "link.pages-products",
+			"label": "Products"
+		},
+		{
+			"url": "link.pages-windshield-repairs",
+			"label": "Gallery"
+		},
+		{
+			"url": "link.pages-windshield-repairs",
+			"label": "Contact"
+		}
+	]
+}

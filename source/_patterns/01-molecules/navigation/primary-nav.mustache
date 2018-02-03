@@ -1,0 +1,24 @@
+<nav class="c-primary-nav js-nav-target" role="navigation">
+
+    <ul class="c-primary-nav__list">
+        {{# getQuote }}
+        <li class="c-primary-nav__item">{{> molecules-button }}</li>
+        {{/ getQuote }}
+
+        {{# navItems }}
+		<li class="c-primary-nav__item {{ styleModifier }}">
+
+			<a href="{{ url }}" class="c-primary-nav__link">
+
+                {{# label }}
+				<span class="c-link__link-text">{{ label }}</span>
+                {{/ label }}
+
+			</a><!--end c-primary-nav__link-->
+
+		</li><!-- end c-primary-nav__list__item -->
+        {{/ navItems }}
+
+	</ul><!-- end c-primary-nav__list -->
+
+</nav><!-- end c-primary-nav -->

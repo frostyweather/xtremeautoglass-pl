@@ -1,0 +1,84 @@
+/*------------------------------------*\
+    #PRIMARY NAVIGATION
+\*------------------------------------*/
+
+/**
+ * Navigation tag
+ */
+.c-primary-nav {
+	display: none;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.5rem;
+
+	&.is-active {
+		display: block;
+		position: absolute;
+		padding: 1em 2em;
+		top: 100%;
+		right: 0;
+		box-shadow: -3px 3px 5px -2px rgba(0, 0, 0, 0.2);
+		z-index: 2;
+		background: $color-white;
+
+		@media all and (min-width: $bp-med-2) {
+			position: inherit;
+			box-shadow: 0;
+		}
+	}
+
+	@media all and (min-width: $bp-large) {
+		display: block;
+		margin-right: 1rem;
+	}
+}
+
+/**
+ * Nav List
+ */
+.c-primary-nav__list {
+	@media all and (min-width: $bp-large) {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.c-primary-nav__item--highlight {
+	background: $color-brand-gray;
+	color: $color-white;
+	text-align: center;
+}
+
+/**
+ * Nav Links
+ */
+.c-primary-nav__link {
+	font-weight: bold;
+	display: block;
+	padding: 1rem;
+	font-family: $font-secondary;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	.c-primary-nav__item--highlight & {
+		background: $color-brand-gray;
+		color: $color-white;
+
+		&:hover,
+		&:focus {
+			background: $color-brand-blue;
+		}
+	}
+
+	.c-navigation-bar & {
+		color: $color-gray-73;
+
+		@media all and (min-width: $bp-large) {
+			color: $color-white;
+		}
+
+		&:hover,
+		&:focus {
+			color: $color-gray-50;
+		}
+	}
+}

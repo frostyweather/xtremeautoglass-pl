@@ -1,0 +1,98 @@
+{
+	"pageTitle": "Products",
+	"stackedBlockSection": {
+		"styleModifier": "l-grid l-grid--3up",
+		"stackedBlockList": [
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Striped Wool Sweater",
+				"excerpt":
+					"Orange and white sweater made from 100% wool and stylish for those brisk Fall and Winter months",
+				"label": "$90"
+			},
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Down Jacket",
+				"excerpt":
+					"This down jacket will protect you from the snowy weather while accenting your outfit during the winter months",
+				"label": "$230"
+			},
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Pinstripe Skirt and Tank Top",
+				"excerpt":
+					"This pinstripe skirt and tank top are a great pairing for a friendly get-together",
+				"label": "$120"
+			},
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Plaid Flannel Button-Down Shirt",
+				"excerpt":
+					"Lounge around during the cold months in this comfortable plaid flannel shirt",
+				"label": "$70"
+			},
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Black Long-sleeved Shirt",
+				"excerpt":
+					"Great during the colder months, this black long-sleeved shirt is simple but a solid choice in a casual setting",
+				"label": "$75"
+			},
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Pinstripe Blazer",
+				"excerpt":
+					"This fashionable pinstripe blazer is perfect for a job interview or a happy hour",
+				"label": "$180"
+			},
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Cream Blazer",
+				"excerpt":
+					"Look professional at your business meetings or with friends on the town in this cream blazer",
+				"label": "$180"
+			},
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Long Button-Down Sweater",
+				"excerpt":
+					"Stay warm and look stylish in this button-down peach sweater that extends to your waist",
+				"label": "$95"
+			},
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Navy Blue Dress",
+				"excerpt":
+					"This casual navy blue dress is great for whipping up a dinner with friends",
+				"label": "$190"
+			}
+		]
+	},
+	"paginationList": [
+		{
+			"itemModifier": "is-disabled",
+			"number": "Prev"
+		},
+		{
+			"itemModifier": "is-active",
+			"number": "1"
+		},
+		{
+			"url": "link.pages-category-page-2",
+			"number": "2"
+		},
+		{
+			"url": "link.pages-category-page-2",
+			"number": "Next"
+		}
+	]
+}

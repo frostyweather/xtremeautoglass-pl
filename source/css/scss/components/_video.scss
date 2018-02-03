@@ -1,0 +1,23 @@
+/*------------------------------------*\
+	#VIDEO
+\*------------------------------------*/
+
+/**
+ * 1) Video
+ */
+.c-video {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.c-video__iframe {
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

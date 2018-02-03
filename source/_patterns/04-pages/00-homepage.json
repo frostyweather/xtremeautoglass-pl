@@ -1,0 +1,86 @@
+{
+	"title": "Home Page",
+	"bodyClass": "home",
+	"emergency": false,
+	"formSlideout": false,
+	"hero": {
+		"imgHeroSrc": "../../images/pittsburgh-incline.jpg",
+		"imgHeroAlt": "pittsburgh skyline",
+		"headline":
+			"<ul><li>OEM Quality Glass</li><li>Lifetime Warranty</li><li>Competitive Pricing</li></ul>"
+	},
+	"htmlText":
+		"<p>Xtreme Autoglass Pros, LLC is a locally owned Pittsburgh, PA - based auto glass repair and replacement company. We are certified to install to OEM standards and conform to all NHTSA requirements.</p><p>For all of our auto glass replacement and repair services, we use OEM quality car glass and materials. Our team of technicians are all certified to perform repairs and replacements, and will ensure that you are satisfied with the results. We offer a lifetime warranty on all of our windshield repairs and replacements.</p><p>We offer the following professional services in:</p><ul><li>Windshield Repairs</li><li>Windshield Replacement</li><li>Auto Glass Removal</li><li>Door Window Replacement</li><li>Rock Chip Repairs</li><li>Insurance Claims</li><li>Door Motor Regulator Repair</li><li>Classic Car Glass</li><li>Vinyl Graphics</li></ul>",
+	"formSectionHeader": {
+		"sectionTitle": "Get a Quote"
+	},
+	"toutSection": {
+		"styleModifier": "l-grid--3up",
+		"toutList": [
+			{
+				"url": "link.pages-category",
+				"headline": "Windshield Repairs"
+			},
+			{
+				"url": "link.pages-category",
+				"headline": "Windshield Replacements"
+			},
+			{
+				"url": "link.pages-category",
+				"headline": "Auto Glass Removal"
+			},
+			{
+				"url": "link.pages-category",
+				"headline": "Door Window Replacement"
+			},
+			{
+				"url": "link.pages-category",
+				"headline": "Rock Chip Repairs"
+			},
+			{
+				"url": "link.pages-category",
+				"headline": "Insurance Claims"
+			},
+			{
+				"url": "link.pages-category",
+				"headline": "Motor Regulator Repair"
+			}
+		]
+	},
+	"inset-blocks": [
+		{
+			"headline": "This is the headline for the inset block"
+		}
+	],
+	"latestPosts": {
+		"styleModifier": "l-grid l-grid--3up",
+		"sectionTitle": "Featured Items",
+		"stackedBlockList": [
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Women's Striped Sweater",
+				"excerpt":
+					"Orange and white sweater made from 100% wool and stylish for those brisk Fall and Winter months",
+				"label": "$90"
+			},
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Men's Gray Jacket",
+				"excerpt":
+					"Down jacket great for days when a winter coat is too heavy. Comes in gray(shown) or blue",
+				"label": "$250"
+			},
+			{
+				"styleModifier": "",
+				"url": "link.pages-category-detail",
+				"headline": "Boys Jeans",
+				"excerpt":
+					"Denim jeans for kids. Comes in khaki(shown) or blue",
+				"label": "$80"
+			}
+		],
+		"btnText": "View All Posts"
+	}
+}

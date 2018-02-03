@@ -1,0 +1,29 @@
+<{{# buttonTag }}button{{/ buttonTag }}{{# linkTag }}a href="{{ url }}"{{/ linkTag }} class="c-btn {{ styleModifier }}" {{# buttonTitle}}title="{{ buttonTitle }}"{{/ buttonTitle}}{{# buttonIsToggle }} data-btn-icon-swap="{{ iconPath }}{{ buttonIconSwap }}"{{/ buttonIsToggle }}>
+
+    <div class="c-btn__inner">
+
+        {{# buttonIcon }}
+        <svg class="c-btn__icon {{# buttonIsToggle }}js-btn-icon{{/ buttonIsToggle }}">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ iconPath }}#{{ buttonIcon }}"></use>
+        </svg>
+        {{/ buttonIcon }}
+
+        {{# buttonText }}
+            <span class="c-btn__text js-btn-text">{{ buttonText }}</span>
+        {{/ buttonText }}
+
+        {{# buttonIconAfter }}
+        <svg class="c-btn__icon {{# buttonIsToggle }}js-btn-icon{{/ buttonIsToggle }}">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ iconPath }}#{{ buttonIcon }}"></use>
+        </svg>
+        {{/ buttonIconAfter }}
+
+        {{# buttonIsToggle }}
+		<svg class="c-btn__icon u-is-hidden js-btn-swap-icon">
+			<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ iconPath }}#{{ buttonSwapIcon }}"></use>
+		</svg>
+		{{/ buttonIsToggle }}
+
+    </div><!--end c-btn__inner-->
+
+</{{# buttonTag }}button{{/ buttonTag }}{{# linkTag }}a{{/ linkTag }}><!-- end c-btn -->

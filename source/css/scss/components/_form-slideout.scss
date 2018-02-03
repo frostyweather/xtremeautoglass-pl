@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #FORMS SLIDEOUT
+\*------------------------------------*/
+
+/**
+ * Form slideout
+ */
+.c-form-slideout {
+	overflow: hidden;
+	max-height: 0;
+	height: 0;
+	background: $color-gray-73;
+	transition: all 0.2s ease;
+
+	&.is-active {
+		max-height: 90rem;
+		height: auto;
+	}
+}

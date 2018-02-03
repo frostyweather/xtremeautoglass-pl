@@ -1,0 +1,134 @@
+{
+	"selectOptions": [
+		{
+			"option": "Option 1"
+		},
+		{
+			"option": "Option 2"
+		},
+		{
+			"option": "Option 3"
+		}
+	],
+	"field": true,
+	"fields": [{}, {}, {}],
+	"formButton": true,
+	"radios": [{}, {}, {}],
+	"stackedForm": {
+		"fields": [
+			{
+				"label": "Name"
+			},
+			{
+				"label": "Email"
+			},
+			{
+				"label": "Street Address"
+			},
+			{
+				"label": "Apt/Unit #"
+			},
+			{
+				"label": "City"
+			},
+			{
+				"label": "State"
+			},
+			{
+				"label": "Zip Code"
+			},
+			{
+				"label": "Phone #"
+			},
+			{
+				"label": "Year"
+			},
+			{
+				"label": "Make"
+			},
+			{
+				"label": "Model"
+			}
+		],
+		"radioFields": [
+			{
+				"label": "Do you need your windshield repaired or replaced?",
+				"radios": [
+					{
+						"label": "Yes"
+					},
+					{
+						"label": "No"
+					},
+					{
+						"label": "N/A"
+					}
+				]
+			},
+			{
+				"label":
+					"Do you want to file your claim through your insurance?",
+				"radios": [
+					{
+						"label": "Yes"
+					},
+					{
+						"label": "No"
+					}
+				]
+			},
+			{
+				"label": "Part Needing Replaced or Repaired",
+				"radios": [
+					{
+						"label": "Windshield"
+					},
+					{
+						"label": "Back Window"
+					},
+					{
+						"label": "Door Glass"
+					},
+					{
+						"label": "Vent Window"
+					},
+					{
+						"label": "Quarter Glass"
+					}
+				]
+			},
+			{
+				"label": "Glass Position",
+				"radios": [
+					{
+						"label": "Windshield"
+					},
+					{
+						"label": "Drivers Front Door"
+					},
+					{
+						"label": "Passenger Front Door"
+					},
+					{
+						"label": "Drivers Rear Door"
+					},
+					{
+						"label": "Passenger Rear Door"
+					},
+					{
+						"label": "Drivers Quarter Glass"
+					},
+					{
+						"label": "Passenger Quarter Glass"
+					},
+					{
+						"label": "Back Window"
+					}
+				]
+			}
+		],
+		"formButton": {
+			"buttonText": "Submit Quote"
+		}
+	}
+}

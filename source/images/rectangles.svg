@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="989px" height="331px" viewBox="0 0 989 331" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>rectangles</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-14.000000, -632.000000)">
+            <g id="rectangles" transform="translate(14.000000, 632.000000)">
+                <path d="M73,96 C246.815371,163.392021 399.281064,213.906952 530.397077,247.544794 C661.513091,281.182636 814.380732,309.001038 989,331 L73,331 L73,96 Z" id="Rectangle-8" fill="#6B621A"></path>
+                <path d="M55,65 C228.815371,132.392021 381.281064,182.906952 512.397077,216.544794 C643.513091,250.182636 796.380732,278.001038 971,300 L55,300 L55,65 Z" id="Rectangle-8" fill="#827820"></path>
+                <path d="M33,24 C206.815371,91.3920209 359.281064,141.906952 490.397077,175.544794 C621.513091,209.182636 774.380732,237.001038 949,259 L33,259 L33,24 Z" id="Rectangle-8" fill="#BBAB26"></path>
+                <path d="M0,0 C173.815371,67.3920209 326.281064,117.906952 457.397077,151.544794 C588.513091,185.182636 741.380732,213.001038 916,235 L0,235 L0,0 Z" id="Rectangle-8" fill="#F5E135"></path>
+            </g>
+        </g>
+    </g>
+</svg>

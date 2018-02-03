@@ -1,0 +1,9 @@
+{
+    "imgLogoSrc" : "../../images/threadahead.svg",
+    "imgSquareSrc": "http://via.placeholder.com/300x300s",
+    "imgSquareAlt": "Square",
+    "imgLandscapeSrc" : "http://via.placeholder.com/1024x576",
+    "imgLandscapeAlt" : "16x9 Image",
+    "imgHeroSrc" : "http://via.placeholder.com/4460x2973",
+    "imgHeroAlt" : "Hero Placeholder Image"
+}
