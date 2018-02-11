@@ -1,0 +1,64 @@
+/*------------------------------------*\
+    #SOCIAL NAV
+\*------------------------------------*/
+
+/**
+ * 1) Navigation within the footer that contains social links
+ */
+.c-social-nav {
+	display: flex;
+	justify-content: center;
+
+	@media all and (min-width: $bp-small-2) {
+		justify-content: flex-start;
+	}
+}
+
+.c-social-nav__heading {
+	font-size: $font-size-med;
+	margin-right: 0.5rem;
+}
+
+.c-social-nav__list {
+	display: flex;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+/**
+ * Social Nav Item
+ */
+.c-social-nav__item {
+	margin: 0 1rem 0 0;
+
+	/**
+	 * Last social nav item
+	 * 1) Remove right margin
+	 */
+	&:last-child {
+		margin-right: 0; /* 1 */
+	}
+}
+
+.c-social-nav__link {
+	display: block;
+}
+
+/**
+ * Social Nav Icon
+ */
+.c-social-nav__icon {
+	width: 1.5rem;
+	height: 1.5rem;
+	fill: $color-white;
+	transition: fill 0.2s ease;
+
+	/**
+	 * Social nav icon within hovered/focused social nav link
+	 */
+	.c-social-nav__link:hover &,
+	.c-social-nav__link:focus & {
+		fill: $color-brand-yellow;
+	}
+}

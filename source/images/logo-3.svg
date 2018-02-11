@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg class="c-logo" width="558px" height="229px" viewBox="0 0 558 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="558px" height="229px" viewBox="0 0 558 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
     <title>xtremeautoglass-logo</title>
+    <desc>Created with Sketch.</desc>
     <defs>
         <text id="text-1" font-family="SnellRoundhand-Black, Snell Roundhand" font-size="50" font-weight="700" letter-spacing="2.5">
             <tspan x="171.458333" y="66">Xtrem</tspan>
@@ -9,14 +10,14 @@
         </text>
         <filter x="-0.7%" y="-2.4%" width="101.5%" height="107.9%" filterUnits="objectBoundingBox" id="filter-2">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feColorMatrix values="0 0 0 0 0.894117647   0 0 0 0 0.894117647   0 0 0 0 0.894117647  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
         <text id="text-3" font-family="Futura-MediumItalic, Futura" font-size="65" font-style="italic" font-weight="500">
             <tspan x="173.086182" y="124">AUTOGLASS</tspan>
         </text>
         <filter x="-0.5%" y="-2.4%" width="101.0%" height="108.3%" filterUnits="objectBoundingBox" id="filter-4">
             <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feColorMatrix values="0 0 0 0 0.894117647   0 0 0 0 0.894117647   0 0 0 0 0.894117647  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
         <text id="text-5" font-family="SnellRoundhand-Black, Snell Roundhand" font-size="50" font-weight="700" letter-spacing="2.5">
             <tspan x="423.144759" y="167">Pro</tspan>
@@ -24,14 +25,14 @@
         </text>
         <filter x="-0.8%" y="-2.4%" width="101.7%" height="107.9%" filterUnits="objectBoundingBox" id="filter-6">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feColorMatrix values="0 0 0 0 0.894117647   0 0 0 0 0.894117647   0 0 0 0 0.894117647  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
         <text id="text-7" font-family="SnellRoundhand-Black, Snell Roundhand" font-size="50" font-weight="700" letter-spacing="2.5">
             <tspan x="280.561426" y="207">Pittsburgh</tspan>
         </text>
         <filter x="-0.5%" y="-2.4%" width="101.0%" height="107.9%" filterUnits="objectBoundingBox" id="filter-8">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feColorMatrix values="0 0 0 0 0.894117647   0 0 0 0 0.894117647   0 0 0 0 0.894117647  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
         <path d="M49.5676644,34.2183423 L33.0221284,51.6019442 L51.5340752,89.3492965 L78.8607572,27.7206447 L108.178562,84.9254541 L136.006651,29.2311333 L111.826119,19.9631619 L195.530826,0 L170.975313,18.0972116 L122.070581,111.282361 L169.265874,205.117549 L195.530826,224 L111.826119,205.117549 L136.006651,194.641724 L108.178562,139.335278 L78.8607572,197.421131 L51.5340752,134.177411 L33.0221284,172.753338 L49.5676644,189.077002 L0,177.643131 L19.8100537,163.34551 L40.7796112,113.044359 L19.8100537,60.6000512 L0,46.6147352 L49.5676644,34.2183423 Z M79.6260233,80.9290323 L65.0322581,111.494055 L79.6260233,142.206592 L95.0010729,111.494055 L79.6260233,80.9290323 Z" id="path-9"></path>
         <filter x="-2.5%" y="-2.1%" width="106.1%" height="104.1%" filterUnits="objectBoundingBox" id="filter-10">
@@ -67,7 +68,7 @@
             <g id="Combined-Shape">
                 <use fill="#F5E135" fill-rule="evenodd" xlink:href="#path-9"></use>
                 <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
-                <use stroke="#E4E4E4" stroke-width="2" xlink:href="#path-9"></use>
+                <use stroke="#000000" stroke-width="2" xlink:href="#path-9"></use>
             </g>
         </g>
     </g>

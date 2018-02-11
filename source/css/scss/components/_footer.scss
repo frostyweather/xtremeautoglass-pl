@@ -8,7 +8,7 @@
 .c-footer {
 	clear: both;
 	overflow: hidden;
-	background: $color-brand-gray;
+	background: $color-gray-73;
 	color: $color-white;
 	line-height: 1.2;
 	padding: 1em 0;
@@ -24,7 +24,8 @@
 		color: $color-gray-15;
 		text-decoration: underline;
 
-		&:hover, &:focus {
+		&:hover,
+		&:focus {
 			text-decoration: none;
 		}
 	}

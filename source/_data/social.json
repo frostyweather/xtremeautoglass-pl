@@ -1,0 +1,25 @@
+{
+	"socialNavSection": {
+		"heading": "Follow Us:",
+		"socialNav": [
+			{
+				"label": "Facebook",
+				"url": "#",
+				"styleModifier": "c-social-nav__icon",
+				"icon": "facebook"
+			},
+			{
+				"label": "Instagram",
+				"url": "#",
+				"styleModifier": "c-social-nav__icon",
+				"icon": "instagram"
+			},
+			{
+				"label": "Google",
+				"url": "#",
+				"styleModifier": "c-social-nav__icon",
+				"icon": "google"
+			}
+		]
+	}
+}
