@@ -93,4 +93,12 @@
 	background-position: -0.5rem bottom;
 	background-repeat: no-repeat;
 	z-index: 1;
+
+	&.is-active {
+		position: absolute;
+
+		@media all and (min-width: $bp-large) {
+			position: sticky;
+		}
+	}
 }

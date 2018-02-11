@@ -38,6 +38,21 @@
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
+
+	&.c-primary-nav__item--highlight {
+		background: $color-brand-gray;
+		color: $color-white;
+
+		&:hover,
+		&:focus {
+			background: $color-brand-yellow-dark;
+
+			@media all and (min-width: $bp-large) {
+				background: $color-brand-blue;
+				color: $color-brand-yellow;
+			}
+		}
+	}
 }
 
 /**

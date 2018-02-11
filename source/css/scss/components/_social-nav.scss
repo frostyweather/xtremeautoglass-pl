@@ -8,6 +8,7 @@
 .c-social-nav {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 0.5rem;
 
 	@media all and (min-width: $bp-small-2) {
 		justify-content: flex-start;
@@ -23,7 +24,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	text-transform: uppercase;
-	margin-bottom: 1rem;
 }
 
 /**

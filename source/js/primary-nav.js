@@ -26,9 +26,11 @@
 
 			if (navTarget.classList.contains("is-active")) {
 				/* 3 */
+				document.body.classList.remove("is-disabled");
 				navTarget.classList.remove("is-active");
 			} else {
 				/* 4 */
+				document.body.classList.add("is-disabled");
 				navTarget.classList.add("is-active");
 			}
 		});

@@ -24,13 +24,15 @@
 	</div>
 </header><!-- end c-header -->
 
-<div class="c-navigation-bar">
+<div class="c-navigation-bar js-nav-target">
 	{{# navToggle }}
 	{{> molecules-button }}
 	{{/ navToggle }}
 
 	{{# primaryNav }}
-	{{> molecules-primary-nav }}
+	<div class="c-nav-container">
+		{{> molecules-primary-nav }}
+	</div>
 	{{/ primaryNav }}
 
 </div><!-- end c-header__controls -->
