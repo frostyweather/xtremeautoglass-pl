@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="2343px" height="218px" viewBox="0 0 2343 218" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="2339px" height="219px" viewBox="0 0 2339 219" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
     <title>parallels</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="parallels">
-            <polygon id="Rectangle-9" fill="#6B621A" points="4 2 1606.54689 2 2343 218 676.161048 218 4 218"></polygon>
-            <polygon id="Rectangle-9" fill="#827820" points="0 2 1602.54689 2 2339 189 531.625 189"></polygon>
-            <polygon id="Rectangle-9" fill="#BBAB26" points="52 2 1618.91952 2 2338.1875 163.359375 531.773438 163.359375"></polygon>
-            <polygon id="Rectangle-9" fill="#F5E135" points="118.828125 0.3046875 1624.39844 0.3046875 2337.3125 136.929687 533.953125 136.929688"></polygon>
+            <polygon id="Rectangle-9" fill="#6B621A" points="7.27595761e-12 1.07226562 1602.54689 3 2339 219 672.161048 219 7.27595761e-12 219"></polygon>
+            <polygon id="Rectangle-9" fill="#827820" points="0.0009765625 0.880859375 1598.85742 0.880859375 2335 190 527.625 190"></polygon>
+            <polygon id="Rectangle-9" fill="#BBAB26" points="48.0693359 1.22460938 1615.53809 1.22460938 2334.1875 164.359375 527.773438 164.359375"></polygon>
+            <polygon id="Rectangle-9" fill="#F5E135" points="114.828125 1.3046875 1620.39844 1.3046875 2333.3125 137.929687 529.953125 137.929687"></polygon>
         </g>
     </g>
 </svg>
