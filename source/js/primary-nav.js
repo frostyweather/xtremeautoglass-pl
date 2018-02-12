@@ -57,7 +57,9 @@ window.addEventListener("scroll", function(event) {
 	}
 });
 
-var navLink = document.querySelectorAll(".js-nav-dropdown-trigger"); /* 1 */
+var navLink = document.querySelectorAll(
+	".js-nav-dropdown-item .js-nav-link"
+); /* 1 */
 
 for (i = 0; i < navLink.length; i++) {
 	/* 1 */
@@ -87,7 +89,7 @@ for (i = 0; i < navLink.length; i++) {
 		/* 5 */
 		event.preventDefault();
 		var navLinkParent = this.parentNode; /* 5 */
-		var navItem = document.querySelectorAll(".c-primary-nav__item");
+		var navItem = document.querySelectorAll(".js-nav-dropdown-item");
 
 		if (navLinkParent.classList.contains("is-active")) {
 			/* 6 */
