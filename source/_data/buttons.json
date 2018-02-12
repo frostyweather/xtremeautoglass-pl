@@ -1,4 +1,11 @@
 {
-    "buttonTag" : true,
-    "buttonText" : "Button"
+	"buttonTag": true,
+	"buttonText": "Button",
+	"closeButton": {
+		"styleModifier": "c-btn--text c-header__close-btn js-nav-close-trigger",
+		"buttonText": "Close",
+		"buttonIconAfter": {
+			"buttonIcon": "x"
+		}
+	}
 }

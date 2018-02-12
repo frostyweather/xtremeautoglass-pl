@@ -3,36 +3,48 @@
 \*------------------------------------*/
 
 .c-nav-container {
-	display: none;
-	background: rgba(0, 0, 0, 0.5);
-	padding: 0.5rem;
+	display: block;
+	position: absolute;
+	padding: 4rem 2rem 1rem 2rem;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	z-index: 2;
+	transform: translateX(-100%);
+	background: $color-brand-blue;
 
 	.c-navigation-bar.is-active & {
-		display: block;
-		position: absolute;
-		padding: 1em 2em;
-		top: 100%;
-		left: 0;
-		width: 100%;
-		height: calc(100vh - 5rem);
-		overflow: auto;
-		box-shadow: -3px 3px 5px -2px rgba(0, 0, 0, 0.2);
-		z-index: 2;
-		background: $color-brand-blue;
+		transform: translateX(0);
+		transition: transform 0.5s ease-in;
 
 		@media all and (min-width: $bp-large) {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			position: inherit;
 			box-shadow: 0;
 			height: auto;
-			background: rgba(0, 0, 0, 0.5);
+			background: none;
 			padding: 0.5rem;
 			margin-right: 1rem;
+			transition: transform 0s ease-in;
 		}
 	}
 
 	@media all and (min-width: $bp-large) {
-		display: block;
-		margin-right: 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: static;
+		height: auto;
+		padding: 0.5rem;
+		background: none;
+		transform: translateX(0);
+		transition: transform 0s ease-in;
 	}
 }
 
@@ -41,6 +53,11 @@
  */
 .c-primary-nav {
 	display: block;
+	padding: 0.5rem;
+
+	@media all and (min-width: $bp-large) {
+		background: rgba(0, 0, 0, 0.5);
+	}
 }
 
 /**
@@ -70,6 +87,7 @@
 	display: block;
 	padding: 1rem;
 	font-family: $font-secondary;
+	font-size: $font-size-large;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 
@@ -93,6 +111,7 @@
 
 		@media all and (min-width: $bp-large) {
 			color: $color-white;
+			font-size: $font-size-med;
 		}
 
 		&:hover,

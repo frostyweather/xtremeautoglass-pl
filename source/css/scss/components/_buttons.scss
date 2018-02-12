@@ -76,7 +76,7 @@
 /**
  * Text button
  */
-.c-text-btn {
+.c-btn--text {
 	position: relative;
 	background: none;
 	border: none;
@@ -84,24 +84,9 @@
 	font-weight: bold;
 	font-size: 1.2rem;
 
-	&:after {
-		position: absolute;
-		content: "";
-		height: 20px;
-		width: 20px;
-		background: url("../../../images/icon-arrowhead.svg") no-repeat;
-		top: 7px;
-		right: -26px;
-		transition: all 0.2s ease;
-	}
-
 	&:hover,
 	&:focus {
-		color: $color-gray-73;
-
-		&:after {
-			right: -28px;
-		}
+		color: $color-brand-yellow;
 	}
 }
 
@@ -111,4 +96,34 @@
 
 .c-btn--overlay {
 	background: $color-gray-35;
+}
+
+.c-btn__inner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*
+ * Button icon
+ */
+.c-btn__icon {
+	width: 16px;
+	height: 16px;
+	color: currentColor;
+	fill: currentColor;
+}
+
+/*
+ * Button icon before text, add styles to icon
+ */
+.c-btn__icon + .c-btn__text {
+	margin-left: 1rem;
+}
+
+/*
+ * Button icon after text, add styles to button icon
+ */
+.c-btn__text + .c-btn__icon {
+	margin-left: 1rem;
 }
