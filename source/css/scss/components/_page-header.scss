@@ -7,9 +7,13 @@
  */
 
 .c-page-header__title {
+	display: inline-block;
 	padding: 1rem 0 0.5rem;
+	margin-bottom: 0.5rem;
 	position: relative;
 	color: $color-gray-73;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	border-bottom: 7px solid $color-brand-yellow;
+	box-shadow: inset 0px -7px 0px 0px $color-brand-blue;
 }
