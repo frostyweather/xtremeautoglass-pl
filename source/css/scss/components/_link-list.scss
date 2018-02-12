@@ -1,0 +1,67 @@
+/*------------------------------------*\
+    #LINK LIST
+\*------------------------------------*/
+
+/**
+ * 1) A stacked list of links, with a right-facing caret
+ *    as decoration
+ */
+.c-link-list {
+	margin: 0 0 2rem 0; /* 2 */
+	padding: 0; /* 2 */
+	line-height: 1; /* 2 */
+	text-transform: uppercase;
+}
+
+/**
+ * Link list 2up
+ * 1) Link list that sits side by side
+ */
+.c-link-list--2up {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -0.5rem;
+}
+
+/**
+ * Link List Item
+ */
+.c-link-list__item {
+	line-height: 1;
+	border-bottom: 1px solid $color-gray-15;
+}
+
+/**
+ * Link List Link
+ */
+.c-link-list__link {
+	display: flex;
+	padding: 1rem;
+	color: $color-brand-blue;
+	cursor: pointer;
+	transition: background 0.2s ease color 0.2s ease;
+
+	&:hover,
+	&:focus {
+		background: $color-brand-blue;
+		color: $color-white;
+	}
+}
+
+/**
+ * Link list icon
+ */
+.c-link-list__icon {
+	display: block;
+	height: 1rem;
+	width: 1rem;
+	fill: $color-brand-blue;
+	margin-left: auto;
+	transform: rotate(-90deg);
+	transition: fill 0.2s ease;
+
+	.c-link-list__link:hover &,
+	.c-link-list__link:focus & {
+		fill: $color-white;
+	}
+}

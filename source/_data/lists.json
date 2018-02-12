@@ -1,36 +1,69 @@
 {
-    "stackedBlockList" : [
-        {
-            "styleModifier" : ""
-        },
-        {
-            "styleModifier" : ""
-        },
-        {
-            "styleModifier" : ""
-        }
-    ],
-    "paginationList" : [
-        {
-            "number" : "Prev"
-        },
-        {
-            "number" : "1"
-        },
-        {
-            "number" : "2"
-        },
-        {
-            "number" : "Next"
-        }
-    ],
-    "stripeList" : [
-        {},
-        {}
-    ],
-    "toutList" : [
-        {},
-        {},
-        {}
-    ]
+	"linkList": {
+		"items": [
+			{
+				"cta": "Windshield Repairs",
+				"linkListIcon": {
+					"styleModifier": "c-link-list__icon",
+					"icon": "caret-down"
+				}
+			},
+			{
+				"cta": "Windshield Replacement",
+				"linkListIcon": {
+					"styleModifier": "c-link-list__icon",
+					"icon": "caret-down"
+				}
+			},
+			{
+				"cta": "Auto Glass Removal",
+				"linkListIcon": {
+					"styleModifier": "c-link-list__icon",
+					"icon": "caret-down"
+				}
+			},
+			{
+				"cta": "Door Window Replacement",
+				"linkListIcon": {
+					"styleModifier": "c-link-list__icon",
+					"icon": "caret-down"
+				}
+			},
+			{
+				"cta": "Rock Chip Repairs",
+				"linkListIcon": {
+					"styleModifier": "c-link-list__icon",
+					"icon": "caret-down"
+				}
+			},
+			{
+				"cta": "Door Motor Regulator Repair",
+				"linkListIcon": {
+					"styleModifier": "c-link-list__icon",
+					"icon": "caret-down"
+				}
+			},
+			{
+				"cta": "Classic Car Glass",
+				"linkListIcon": {
+					"styleModifier": "c-link-list__icon",
+					"icon": "caret-down"
+				}
+			},
+			{
+				"cta": "Vinyl Graphics",
+				"linkListIcon": {
+					"styleModifier": "c-link-list__icon",
+					"icon": "caret-down"
+				}
+			},
+			{
+				"cta": "Insurance Claims",
+				"linkListIcon": {
+					"styleModifier": "c-link-list__icon",
+					"icon": "caret-down"
+				}
+			}
+		]
+	}
 }
