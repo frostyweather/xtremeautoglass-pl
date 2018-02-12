@@ -8,13 +8,40 @@
         {{# navItems }}
 		<li class="c-primary-nav__item {{ styleModifier }}">
 
-			<a href="{{ url }}" class="c-primary-nav__link">
+			<a href="{{ url }}" class="c-primary-nav__link {{# navChild }}js-nav-dropdown-trigger{{/ navChild }}">
 
                 {{# label }}
 				<span class="c-link__link-text">{{ label }}</span>
                 {{/ label }}
 
+                {{# navIcon }}
+                    <svg class="c-icon c-primary-nav__icon">
+                        <use xlink:href="{{ iconPath }}#{{ navIcon }}"></use>
+                    </svg>
+                {{/ navIcon }}
+
 			</a><!--end c-primary-nav__link-->
+
+            {{# navChild }}
+            <ul class="c-primary-nav__sublist submenu">
+
+                {{# navChildList }}
+                <li class="c-primary-nav__item">
+
+                    <a href="{{ url}}" class="c-primary-nav__link">
+                        <span class="c-primary-nav__link-text">{{ label }}</span>
+                        {{# subnavIcon }}
+                        <svg class="c-icon c-primary-nav__icon">
+                            <use xlink:href="{{ iconPath }}#{{ navIcon }}"></use>
+                        </svg>
+                        {{/ subnavIcon }}
+                    </a>
+
+                </li><!-- end c-nav__sublist__item -->
+                {{/ navChildList }}
+
+            </ul><!-- end c-nav__sublist -->
+            {{/ navChild }}
 
 		</li><!-- end c-primary-nav__list__item -->
         {{/ navItems }}

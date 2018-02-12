@@ -6,8 +6,37 @@
 		},
 		"navItems": [
 			{
-				"url": "link.pages-windshield-repairs",
-				"label": "Glass Services"
+				"url": "#",
+				"label": "Glass Services",
+				"navIcon": "caret-down",
+				"navChild": {
+					"navChildList": [
+						{
+							"label": "Windshield Repairs"
+						},
+						{
+							"label": "Windshield Replacement"
+						},
+						{
+							"label": "Auto Glass Removal"
+						},
+						{
+							"label": "Door Window Replacement"
+						},
+						{
+							"label": "Rock Chip Repairs"
+						},
+						{
+							"label": "Door Motor Regulator Repair"
+						},
+						{
+							"label": "Classic Car Glass"
+						},
+						{
+							"label": "Insurance Claims"
+						}
+					]
+				}
 			},
 			{
 				"url": "link.pages-windshield-repairs",

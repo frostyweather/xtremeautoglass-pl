@@ -10,7 +10,6 @@
 	left: 0;
 	width: 100%;
 	height: 100vh;
-	overflow: auto;
 	z-index: 2;
 	transform: translateX(-100%);
 	background: $color-brand-blue;
@@ -18,6 +17,7 @@
 	.c-navigation-bar.is-active & {
 		transform: translateX(0);
 		transition: transform 0.5s ease-in;
+		overflow: auto;
 
 		@media all and (min-width: $bp-large) {
 			display: flex;
@@ -83,11 +83,12 @@
  * Nav Links
  */
 .c-primary-nav__link {
-	font-weight: bold;
-	display: block;
+	display: flex;
+	align-items: center;
 	padding: 1rem;
 	font-family: $font-secondary;
 	font-size: $font-size-large;
+	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 
@@ -106,6 +107,10 @@
 		}
 	}
 
+	.c-primary-nav__item.is-active > & {
+		background: $color-brand-blue;
+	}
+
 	.c-navigation-bar & {
 		color: $color-white;
 
@@ -118,5 +123,50 @@
 		&:focus {
 			color: $color-brand-yellow;
 		}
+	}
+}
+
+.c-primary-nav__sublist {
+	max-height: 0;
+	margin-left: 1rem;
+	border-left: 1px solid $color-brand-yellow;
+	background: $color-brand-blue;
+	overflow: hidden;
+	transition: max-height 0.2s ease;
+
+	.c-primary-nav__item.is-active & {
+		max-height: 40rem;
+	}
+
+	@media all and (min-width: $bp-large) {
+		position: absolute;
+		margin-left: 0;
+		border-left: none;
+	}
+}
+
+.c-primary-nav__icon {
+	height: 22px;
+	width: 22px;
+	fill: $color-white;
+	margin-left: 0.5rem;
+	transform: rotate(-90deg);
+	transition: transform 0.2s ease, fill 0.2s ease;
+
+	.c-primary-nav__link:hover &,
+	.c-primary-nav__link:focus & {
+		fill: $color-brand-yellow;
+	}
+
+	.c-primary-nav__item.is-active & {
+		transform: rotate(0deg);
+
+		@media all and (min-width: $bp-large) {
+			transform: rotate(180deg);
+		}
+	}
+
+	@media all and (min-width: $bp-large) {
+		transform: rotate(0deg);
 	}
 }

@@ -147,7 +147,16 @@ gulp.task("copy:export-to-wordpress", function(done) {
 		.src("public/icons.svg")
 		.pipe(
 			gulp.dest(
-				"../xtremeautoglass-wp/wp-content/themes/xtremautoglass/svg"
+				"../xtremeautoglass-wp/wp-content/themes/xtremeautoglass/svg"
+			)
+		);
+
+	// Export icons to wordpress theme svg directory
+	gulp
+		.src("public/images/*")
+		.pipe(
+			gulp.dest(
+				"../xtremeautoglass-wp/wp-content/themes/xtremeautoglass/images"
 			)
 		);
 
