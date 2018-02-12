@@ -28,6 +28,7 @@
 			box-shadow: 0;
 			height: auto;
 			background: none;
+			overflow: visible;
 			padding: 0.5rem;
 			margin-right: 1rem;
 			transition: transform 0s ease-in;
@@ -122,6 +123,28 @@
 		&:hover,
 		&:focus {
 			color: $color-brand-yellow;
+		}
+	}
+
+	.menu-item-has-children > & {
+		&:after {
+			content: url("/wp-content/themes/xtremeautoglass/images/caret-down-white.svg");
+			display: block;
+			position: relative;
+			top: -3px;
+			height: 22px;
+			width: 22px;
+			transform: scale(0.12);
+			transition: transform 0.2s ease, top 0.2s ease;
+		}
+	}
+
+	.menu-item-has-children.is-active > & {
+		&:after {
+			height: 22px;
+			width: 22px;
+			transform: scale(0.12) rotateX(180deg);
+			top: 4px;
 		}
 	}
 }
