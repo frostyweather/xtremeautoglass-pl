@@ -5,23 +5,26 @@
 		{{> molecules-hero }}
 	{{/ hero }}
 
-	<div class="l-container">
+<div class="l-page-layout l-page-layout--two-column">
+	<div class="l-page-layout__main">
+		<div class="l-container">
 
-		{{> organisms-text-passage }}
-		{{> molecules-link-list }}
+			{{> organisms-text-passage }}
+			{{> molecules-link-list }}
 
-		{{# formSectionHeader }}
-		{{> molecules-section-header}}
-		{{/ formSectionHeader}}
+			<div class="c-video">
+				<iframe class="c-video__iframe" width="560" height="315" src="https://www.youtube.com/embed/dzgGnPyLWfg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
 
-		{{# stackedForm }}
-		{{> organisms-stacked-form }}
-		{{/ stackedForm }}
-
-		<div class="c-video">
-		<iframe class="c-video__iframe" width="560" height="315" src="https://www.youtube.com/embed/dzgGnPyLWfg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		<div>
+		</div>
 	</div>
+	<div class="l-page-layout__secondary">
+		{{# stackedForm }}
+		{{> organisms-form-slideout }}
+		{{/ stackedForm }}
+	</div>
+
+</div>
 
 
 </main>

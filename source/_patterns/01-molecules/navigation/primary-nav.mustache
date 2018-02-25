@@ -1,9 +1,6 @@
 <nav class="c-primary-nav" role="navigation">
 
     <ul class="c-primary-nav__list">
-        {{# getQuote }}
-        <li class="c-primary-nav__item">{{> molecules-button }}</li>
-        {{/ getQuote }}
 
         {{# navItems }}
 		<li class="c-primary-nav__item {{ styleModifier }} {{# navChild }}js-nav-dropdown-item{{/ navChild }}">

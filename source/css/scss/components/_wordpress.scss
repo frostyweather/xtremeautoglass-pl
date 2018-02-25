@@ -1,0 +1,15 @@
+/*------------------------------------*\
+    #WORDPRESS
+\*------------------------------------*/
+
+/**
+ * Wordpress specific styles
+ */
+.wpcf7-radio span.wpcf7-list-item {
+	display: block;
+}
+
+input[type="submit"].wpcf7-submit {
+	width: auto;
+	padding: 1rem 2rem;
+}

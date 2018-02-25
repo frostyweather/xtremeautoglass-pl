@@ -8,3 +8,13 @@
 .c-section-header {
 	margin-bottom: 0.5rem;
 }
+
+.c-section-header__title {
+	.c-form-slideout.is-active & {
+		color: $color-white;
+
+		@media all and (min-width: $bp-large-2) {
+			color: $color-gray-73;
+		}
+	}
+}

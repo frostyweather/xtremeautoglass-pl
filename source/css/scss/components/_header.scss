@@ -75,7 +75,17 @@
 }
 
 .c-header__nav-btn {
+	margin-right: 1rem;
 	@media all and (min-width: $bp-large) {
+		display: none;
+	}
+}
+
+.c-header__quote-btn {
+	@media all and (min-width: $bp-large) {
+		margin-left: 1rem;
+	}
+	@media all and (min-width: $bp-large-2) {
 		display: none;
 	}
 }
@@ -106,6 +116,14 @@
 
 	&.is-active {
 		position: static;
+	}
+
+	@media all and (min-width: $bp-large) {
+		align-items: center;
+	}
+
+	@media all and (min-width: $bp-large-2) {
+		align-items: flex-start;
 	}
 }
 

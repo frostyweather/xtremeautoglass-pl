@@ -6,5 +6,11 @@
 		"styleModifier": "c-header__nav-btn js-nav-trigger",
 		"buttonText": "Menu"
 	},
+	"getQuote": {
+		"buttonTag": false,
+		"linkTag": true,
+		"styleModifier": "c-header__quote-btn js-get-quote",
+		"buttonText": "Get Quote"
+	},
 	"formSlideout": true
 }

@@ -32,6 +32,10 @@
 	padding: 0.5rem;
 }
 
+.c-form {
+	max-width: 40rem;
+}
+
 /**
  * Stacked form button wrapper
  */
@@ -48,5 +52,9 @@
 
 	.c-form-slideout & {
 		color: $color-white;
+
+		@media all and (min-width: $bp-large-2) {
+			color: $color-gray-73;
+		}
 	}
 }

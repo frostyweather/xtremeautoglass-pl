@@ -6,14 +6,36 @@
  * Form slideout
  */
 .c-form-slideout {
+	position: fixed;
+	top: 0;
 	overflow: hidden;
-	max-height: 0;
-	height: 0;
-	background: $color-gray-73;
-	transition: all 0.2s ease;
+	height: 100vh;
+	width: 100%;
+	background: $color-brand-blue;
+	transform: translateX(-100%);
+	transition: all 0.5s ease;
+	z-index: 2;
 
 	&.is-active {
-		max-height: 90rem;
-		height: auto;
+		transform: translateX(0);
+		overflow: auto;
+	}
+
+	@media all and (min-width: $bp-large-2) {
+		position: static;
+		max-height: none;
+		height: 100%;
+		background: none;
+		transform: translateX(0);
+	}
+}
+
+.c-form-slideout__close-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	@media all and (min-width: $bp-large) {
+		display: none;
 	}
 }

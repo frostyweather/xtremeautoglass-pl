@@ -2,7 +2,9 @@
 	"title": "Home Page",
 	"bodyClass": "home",
 	"emergency": false,
-	"formSlideout": false,
+	"stackedFormHeader": {
+		"sectionTitle": "Get a Quote"
+	},
 	"hero": {
 		"imgHeroSrc": "../../images/pittsburgh-incline.jpg",
 		"imgHeroAlt": "pittsburgh skyline",
@@ -11,9 +13,6 @@
 	},
 	"htmlText":
 		"<p>Xtreme Autoglass Pros, LLC is a locally owned Pittsburgh, PA - based auto glass repair and replacement company. We are certified to install to OEM standards and conform to all NHTSA requirements.</p><p>For all of our auto glass replacement and repair services, we use OEM quality car glass and materials. Our team of technicians are all certified to perform repairs and replacements, and will ensure that you are satisfied with the results. We offer a lifetime warranty on all of our windshield repairs and replacements.</p><p>We offer the following professional services in:</p>",
-	"formSectionHeader": {
-		"sectionTitle": "Get a Quote"
-	},
 	"toutSection": {
 		"styleModifier": "l-grid--3up",
 		"toutList": [

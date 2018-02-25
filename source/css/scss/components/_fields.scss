@@ -14,6 +14,12 @@
 	}
 }
 
+.c-field--span-full {
+	@media all and (min-width: $bp-small-2) {
+		grid-column: span 2;
+	}
+}
+
 .c-field__note {
 	font-size: $font-size-small;
 
@@ -38,5 +44,9 @@
 
 	.c-form-slideout & {
 		color: $color-white;
+
+		@media all and (min-width: $bp-large-2) {
+			color: $color-gray-73;
+		}
 	}
 }

@@ -1,5 +1,11 @@
 <div class="c-form-slideout js-form-slideout">
 	<div class="l-container">
+		{{# stackedFormCloseBtn }}
+		{{> molecules-button }}
+		{{/ stackedFormCloseBtn }}
+		{{# stackedFormHeader }}
+		{{> molecules-section-header}}
+		{{/ stackedFormHeader}}
 		{{# stackedForm }}
 		{{> organisms-stacked-form }}
 		{{/ stackedForm }}

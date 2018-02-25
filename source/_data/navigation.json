@@ -1,9 +1,5 @@
 {
 	"primaryNav": {
-		"getQuote": {
-			"styleModifier": "c-primary-nav__item--highlight js-get-quote",
-			"buttonText": "Get Quote"
-		},
 		"navItems": [
 			{
 				"url": "#",
@@ -12,28 +8,36 @@
 				"navChild": {
 					"navChildList": [
 						{
-							"label": "Windshield Repairs"
+							"label": "Windshield Repairs",
+							"url": "link.pages-windshield-repairs"
 						},
 						{
-							"label": "Windshield Replacement"
+							"label": "Windshield Replacement",
+							"url": "link.pages-windshield-replacement"
 						},
 						{
-							"label": "Auto Glass Removal"
+							"label": "Auto Glass Removal",
+							"url": "link.pages-auto-glass-removal"
 						},
 						{
-							"label": "Door Window Replacement"
+							"label": "Door Window Replacement",
+							"url": "link.pages--door-window-replacement"
 						},
 						{
-							"label": "Rock Chip Repairs"
+							"label": "Rock Chip Repairs",
+							"url": "link.pages-rock-chip-repairs"
 						},
 						{
-							"label": "Door Motor Regulator Repair"
+							"label": "Door Motor Regulator Repair",
+							"url": "link.pages-motor-gregulator"
 						},
 						{
-							"label": "Classic Car Glass"
+							"label": "Classic Car Glass",
+							"url": "link.pages-classic-cars"
 						},
 						{
-							"label": "Insurance Claims"
+							"label": "Insurance Claims",
+							"url": "link.pages-insurance-claims"
 						}
 					]
 				}
@@ -57,11 +61,6 @@
 		]
 	},
 	"footerNav": [
-		{
-			"styleModifier": "c-primary-nav__item--highlight",
-			"url": "link.pages-services",
-			"label": "Get Quote"
-		},
 		{
 			"url": "link.pages-windshield-repairs",
 			"label": "Auto Services"
