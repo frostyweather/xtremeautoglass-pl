@@ -24,22 +24,24 @@
 	</div>
 </header><!-- end c-header -->
 
-<div class="c-navigation-bar js-nav-target">
-	{{# navToggle }}
-	{{> molecules-button }}
-	{{/ navToggle }}
-
-	{{# getQuote }}
-	{{> molecules-button }}
-	{{/ getQuote }}
-
-	{{# primaryNav }}
-	<div class="c-nav-container">
-		{{# closeButton }}
+<div class="c-navigation-bar js-nav-target js-sticky">
+	<div class="c-navigation-bar__inner">
+		{{# navToggle }}
 		{{> molecules-button }}
-		{{/ closeButton }}
-		{{> molecules-primary-nav }}
+		{{/ navToggle }}
+
+		{{# getQuote }}
+		{{> molecules-button }}
+		{{/ getQuote }}
+
+		{{# primaryNav }}
+		<div class="c-nav-container">
+			{{# closeButton }}
+			{{> molecules-button }}
+			{{/ closeButton }}
+			{{> molecules-primary-nav }}
+		</div>
+		{{/ primaryNav }}
 	</div>
-	{{/ primaryNav }}
 
 </div><!-- end c-navigation-bar -->

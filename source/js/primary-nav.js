@@ -44,21 +44,8 @@
 	}
 })();
 
-var navBar = document.querySelector(".c-navigation-bar");
-
-window.addEventListener("scroll", function(event) {
-	var navBarPosition = navBar.getBoundingClientRect();
-	console.log(navBarPosition.top);
-
-	if (navBarPosition.top <= 0) {
-		navBar.setAttribute("style", "position: sticky;");
-	} else {
-		navBar.setAttribute("style", "position: static;");
-	}
-});
-
 var navLink = document.querySelectorAll(
-	".js-nav-dropdown-item .js-nav-link"
+	".js-nav-dropdown-item > .c-primary-nav__link"
 ); /* 1 */
 
 for (i = 0; i < navLink.length; i++) {

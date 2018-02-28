@@ -13,12 +13,13 @@
 	width: 100%;
 	background: $color-brand-blue;
 	transform: translateX(-100%);
-	transition: all 0.5s ease;
+	transition: all 0s ease;
 	z-index: 2;
 
 	&.is-active {
 		transform: translateX(0);
 		overflow: auto;
+		transition: all 0.5s ease;
 	}
 
 	@media all and (min-width: $bp-large-2) {
@@ -27,6 +28,7 @@
 		height: 100%;
 		background: none;
 		transform: translateX(0);
+		z-index: 0;
 	}
 }
 

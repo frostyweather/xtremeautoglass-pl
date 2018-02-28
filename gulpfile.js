@@ -10,6 +10,7 @@ var gulp = require("gulp"),
 	argv = require("minimist")(process.argv.slice(2)),
 	chalk = require("chalk"),
 	copy = require("gulp-copy"),
+	autoprefixer = require("gulp-autoprefixer"),
 	svgSprite = require("gulp-svg-sprites");
 
 /**
@@ -38,6 +39,22 @@ gulp.task("pl-sass", function() {
 		.pipe(sass().on("error", sass.logError))
 		.pipe(gulp.dest(path.resolve(paths().public.css)));
 });
+
+/******************************************************
+ * AUTOPREFIXER
+ ******************************************************/
+gulp.task("prefix", () =>
+	gulp
+		.src("./public/css/style.css")
+		.pipe(
+			autoprefixer({
+				browsers: ["last 2 versions"],
+				cascade: false,
+				grid: true
+			})
+		)
+		.pipe(gulp.dest("./public/css/"))
+);
 
 /******************************************************
  * SVG SPRITE
@@ -204,7 +221,7 @@ gulp.task(
 		"pl-copy:favicon",
 		"pl-copy:font",
 		"svg-sprite",
-		gulp.series("pl-sass", function(done) {
+		gulp.series("pl-sass", "prefix", function(done) {
 			done();
 		}), //CSS tasks
 		"pl-copy:css",
@@ -282,7 +299,7 @@ function watch() {
 			name: "CSS",
 			paths: [normalizePath(paths().source.css, "**", "*.scss")],
 			config: { awaitWriteFinish: true },
-			tasks: gulp.series("pl-sass", reloadCSS)
+			tasks: gulp.series("pl-sass", "prefix", reloadCSS)
 		},
 		{
 			name: "Styleguide Files",

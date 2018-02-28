@@ -13,3 +13,11 @@ input[type="submit"].wpcf7-submit {
 	width: auto;
 	padding: 1rem 2rem;
 }
+
+.wpcf7-form label {
+	color: $color-white;
+
+	@media all and (min-width: $bp-large-2) {
+		color: $color-gray-73;
+	}
+}

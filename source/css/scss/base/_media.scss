@@ -5,7 +5,9 @@
 /**
  * Make media elements responsive
  */
-img, video, object {
+img,
+video,
+object {
 	max-width: 100%;
 	height: auto;
 }
@@ -14,7 +16,12 @@ img, video, object {
  * Iframe base styles
  */
 iframe {
-	margin-bottom: $space;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 1rem;
 }
 
 /**
@@ -22,7 +29,7 @@ iframe {
  */
 figure {
 	margin-bottom: $space;
-	
+
 	/**
 	 * Figure image base styles
 	 */
