@@ -3,11 +3,19 @@
 \*------------------------------------*/
 
 .c-carousel {
+	@media all and (min-width: $bp-med) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 	@supports (display: grid) {
 		@media all and (min-width: $bp-med) {
 			display: grid;
-			grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+			grid-template-columns: 1fr 1fr;
 			margin: 0;
+		}
+		@media all and (min-width: $bp-large-2) {
+			grid-template-columns: 1fr 1fr 1fr;
 		}
 	}
 }
@@ -28,14 +36,30 @@
 /* cell number */
 .c-carousel__image {
 	display: block;
-	text-align: center;
-	content: counter(gallery-cell);
-	line-height: 200px;
-	font-size: 80px;
-	color: white;
+
+	@media all and (min-width: $bp-med) {
+		width: 50%;
+	}
+	@media all and (min-width: $bp-large-2) {
+		width: 33.33%;
+	}
 
 	@supports (display: grid) {
 		@media all and (min-width: $bp-med) {
+			&:nth-child(2) {
+				margin-top: 2rem;
+			}
+			&:nth-child(odd):not(:first-child) {
+				margin-top: -2rem;
+			}
+		}
+		@media all and (min-width: $bp-large-2) {
+			&:nth-child(2) {
+				margin-top: 0;
+			}
+			&:nth-child(odd):not(:first-child) {
+				margin-top: 0;
+			}
 		}
 	}
 }
