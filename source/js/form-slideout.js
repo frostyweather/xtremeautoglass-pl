@@ -29,4 +29,16 @@
 			this.parentNode.parentNode.classList.remove("is-active");
 		});
 	}
+
+	var radioTrigger = document.querySelectorAll(".js-form-dropdown .js-radio-trigger");
+	for (i=0; i<radioTrigger.length; i++) {
+		radioTrigger[i].addEventListener("click", function(event) {
+			if(this.nextElementSibling.innerText == "Yes") {
+				document.querySelector(".js-dropdown-form-target").classList.remove("u-is-hidden");
+			}
+			else {
+				document.querySelector(".js-dropdown-form-target").classList.add("u-is-hidden");
+			}
+		});
+	}
 })();

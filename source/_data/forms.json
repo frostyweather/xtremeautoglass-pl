@@ -79,7 +79,7 @@
 				]
 			},
 			{
-				"styleModifier": "c-field--span-full",
+				"styleModifier": "js-form-dropdown c-field--span-full",
 				"label":
 					"Do you want to file your claim through your insurance?",
 				"radios": [
@@ -90,7 +90,13 @@
 						"label": "No"
 					}
 				]
-			},
+			}
+		],
+		"textField": {
+			"styleModifier": "js-dropdown-form-target u-is-hidden",
+			"label": "Insurance Company"
+		},
+		"radioFields2": [
 			{
 				"styleModifier": "c-field--span-full",
 				"label": "Part Needing Replaced or Repaired",
