@@ -4,10 +4,9 @@
 	{{# hero }}
 		{{> molecules-hero }}
 	{{/ hero }}
-
-<div class="l-page-layout l-page-layout--two-column">
-	<div class="l-page-layout__main">
-		<div class="l-container">
+<div class="l-container">
+	<div class="l-page-layout l-page-layout--two-column">
+		<div class="l-page-layout__main">
 
 			{{> organisms-text-passage }}
 			{{> molecules-link-list }}
@@ -17,13 +16,12 @@
 			</div>
 
 		</div>
+		<div class="l-page-layout__secondary">
+			{{# stackedForm }}
+			{{> organisms-form-slideout }}
+			{{/ stackedForm }}
+		</div>
 	</div>
-	<div class="l-page-layout__secondary">
-		{{# stackedForm }}
-		{{> organisms-form-slideout }}
-		{{/ stackedForm }}
-	</div>
-
 </div>
 
 
