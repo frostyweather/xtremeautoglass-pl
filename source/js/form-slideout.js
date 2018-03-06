@@ -6,23 +6,25 @@
  * 1)
  */
 (function() {
-	var quoteButton = document.querySelector(".js-get-quote");
-	var formCloseTrigger = document.querySelector(".js-form-close-trigger");
+	if (document.querySelector(".js-get-quote")) {
+		var quoteButton = document.querySelector(".js-get-quote");
+		var formCloseTrigger = document.querySelector(".js-form-close-trigger");
 
-	quoteButton.addEventListener("click", function(event) {
-		event.preventDefault();
-		var formSlideout = document.querySelector(".js-form-slideout");
-		if (formSlideout.classList.contains("is-active")) {
-			formSlideout.classList.remove("is-active");
-		} else {
-			formSlideout.classList.add("is-active");
-		}
-	});
+		quoteButton.addEventListener("click", function(event) {
+			event.preventDefault();
+			var formSlideout = document.querySelector(".js-form-slideout");
+			if (formSlideout.classList.contains("is-active")) {
+				formSlideout.classList.remove("is-active");
+			} else {
+				formSlideout.classList.add("is-active");
+			}
+		});
 
-	formCloseTrigger.addEventListener("click", function(event) {
-		event.preventDefault();
-		document.body.classList.remove("is-disabled");
+		formCloseTrigger.addEventListener("click", function(event) {
+			event.preventDefault();
+			document.body.classList.remove("is-disabled");
 
-		this.parentNode.parentNode.classList.remove("is-active");
-	});
+			this.parentNode.parentNode.classList.remove("is-active");
+		});
+	}
 })();

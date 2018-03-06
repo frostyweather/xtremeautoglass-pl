@@ -6,9 +6,8 @@
 * 1) A passage of text, including various components (i.e. article, blog post)
 */
 .c-text-passage {
-
 	p {
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 	}
 
 	/**
@@ -26,14 +25,15 @@
 		border-left: 3px solid $color-gray-73;
 		color: $color-gray-50;
 		font-size: 1rem;
-	 }
+		margin-bottom: 2rem;
+	}
 
-	 /**
+	/**
 	  * First-level heading within text passage
 	  */
-	 h1 {
-		 margin-bottom: 1rem;
-	 }
+	h1 {
+		margin-bottom: 1rem;
+	}
 
 	/**
 	 * Second-level heading within text passage
@@ -79,14 +79,13 @@
 		margin-bottom: 0.5rem;
 	}
 
-
 	/**
 	 * Unordered list within text passage
 	 * 1) Align text bullet with li text
 	 */
 	ul {
 		list-style: disc;
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 		margin-left: 1rem;
 
 		li {
@@ -101,6 +100,6 @@
 	ol {
 		list-style: decimal;
 		margin-left: 1rem;
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 	}
 }

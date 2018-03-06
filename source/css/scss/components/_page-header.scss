@@ -5,6 +5,9 @@
  * 1) The page header contains the page's heading, as perhaps other page information
  *    such as description or actions (edit, delete, etc).
  */
+.c-page-header {
+	margin-bottom: 1em;
+}
 
 .c-page-header__title {
 	display: inline-block;

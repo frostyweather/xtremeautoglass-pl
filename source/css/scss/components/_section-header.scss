@@ -6,15 +6,27 @@
  * Title of a section
  */
 .c-section-header {
-	margin-bottom: 0.5rem;
+	margin-bottom: 1rem;
 }
 
 .c-section-header__title {
+	text-transform: uppercase;
 	.c-form-slideout.is-active & {
 		color: $color-white;
 
 		@media all and (min-width: $bp-large-2) {
 			color: $color-gray-73;
 		}
+	}
+
+	.c-form-slideout--menu.is-active & {
+		@media all and (min-width: $bp-large-2) {
+			color: $color-white;
+		}
+	}
+
+	.c-form-slideout.is-active & {
+		max-width: 40rem;
+		margin: 0 auto;
 	}
 }

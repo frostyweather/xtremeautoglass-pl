@@ -22,7 +22,11 @@
 			"buttonIcon": "x"
 		}
 	},
+	"stackedFormHeader": {
+		"sectionTitle": "Get a Quote"
+	},
 	"stackedForm": {
+		"styleModifier": "",
 		"fields": [
 			{
 				"label": "Name"

@@ -1,4 +1,14 @@
 {
+	"getQuote": {
+		"buttonTag": false,
+		"linkTag": true,
+		"styleModifier":
+			"c-header__quote-btn c-header__quote-btn--visible js-get-quote",
+		"buttonText": "Get Quote"
+	},
 	"pageTitle": "Gallery",
-	"htmlText": "This is a gallery of photos"
+	"htmlText": "<p>This is a gallery of photos</p>",
+	"formSection": {
+		"styleModifier": "c-form-slideout--menu"
+	}
 }

@@ -90,6 +90,12 @@
 	}
 }
 
+.c-header__quote-btn--visible {
+	@media all and (min-width: $bp-large-2) {
+		display: inline-block;
+	}
+}
+
 .c-header__close-btn {
 	position: absolute;
 	top: 0;
@@ -124,10 +130,6 @@
 
 	@media all and (min-width: $bp-large) {
 		align-items: center;
-	}
-
-	@media all and (min-width: $bp-large-2) {
-		align-items: flex-start;
 	}
 }
 

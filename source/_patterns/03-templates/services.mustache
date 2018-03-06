@@ -1,11 +1,22 @@
 {{> organisms-header }}
 <main role="main">
 
-	<div class="l-container">
-		{{> organisms-page-header}}
-		{{> organisms-text-passage }}
-	</div>
+	<div class="l-page-layout l-page-layout--two-column">
+		<div class="l-page-layout__main">
+			<div class="l-container">
 
+				{{> organisms-page-header}}
+				{{> organisms-text-passage }}
+
+			</div>
+		</div>
+		<div class="l-page-layout__secondary">
+			{{# stackedForm }}
+			{{> organisms-form-slideout }}
+			{{/ stackedForm }}
+		</div>
+
+	</div>
 
 </main>
 {{> organisms-footer }}
