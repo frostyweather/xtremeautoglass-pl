@@ -38,11 +38,8 @@
 	 * Sidebar
 	 */
 	.l-page-layout__secondary {
-		.js & {
-			opacity: 0;
-			transform: translateY(100vh);
-		}
-		animation: fadeFromBottom 1s 1 forwards;
+		animation: fadeFromBottom 1s 1;
+
 		@media all and (min-width: $bp-large-2) {
 			width: 40%;
 			margin-left: 2rem;
