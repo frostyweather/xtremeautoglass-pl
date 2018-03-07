@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    #LOGO LIST
+\*------------------------------------*/
+
+.c-logo-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+}
+
+.c-logo-list__item {
+	margin: 0 2rem 2rem 0;
+
+	&:last-child {
+		margin: 0;
+	}
+}

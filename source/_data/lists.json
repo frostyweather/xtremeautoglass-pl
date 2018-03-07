@@ -65,5 +65,24 @@
 				}
 			}
 		]
+	},
+	"logoList": {
+		"items": [
+			{
+				"url": "#",
+				"imgLandscapeSrc": "../../images/butler-logo.png",
+				"imgLandscapeAlt": "Butler Auto Glass"
+			},
+			{
+				"url": "#",
+				"imgLandscapeSrc": "../../images/wexford-logo.png",
+				"imgLandscapeAlt": "Wexford Auto Glass"
+			},
+			{
+				"url": "#",
+				"imgLandscapeSrc": "../../images/pitt-auto-logo.png",
+				"imgLandscapeAlt": "Pitt Auto Glass"
+			}
+		]
 	}
 }

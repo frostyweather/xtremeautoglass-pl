@@ -71,16 +71,6 @@
 		display: flex;
 		align-items: center;
 	}
-
-	.c-footer & {
-		display: flex;
-		flex-direction: column;
-
-		@media all and (min-width: $bp-small) {
-			flex-direction: row;
-			flex-wrap: wrap;
-		}
-	}
 }
 
 .c-primary-nav__item--highlight {
@@ -154,22 +144,6 @@
 			width: 22px;
 			transform: scale(0.12) rotateX(180deg);
 			top: 4px;
-		}
-	}
-
-	.c-footer & {
-		font-family: $font-secondary;
-		font-weight: bold;
-		font-size: $font-size-med;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		display: block;
-		padding: 1rem 2rem 1rem 0;
-		color: $color-white;
-
-		&:hover,
-		&:focus {
-			color: $color-gray-35;
 		}
 	}
 }
