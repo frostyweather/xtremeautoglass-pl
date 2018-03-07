@@ -1,11 +1,42 @@
 <footer class="c-footer" role="contentinfo">
 
-	<div class="l-container">
-		{{# footerLogo }}
-		{{> molecules-logo-footer-link }}
-		{{/ footerLogo }}
-		{{> molecules-footer-nav }}
-		<p class="copyright">&copy; {{ year }} {{ companyName }}. All rights reserved.</p>
+	<div class="c-footer__inner l-container">
+		<div class="c-footer__top">
+			{{# footerLogo }}
+			{{> molecules-logo-footer-link }}
+			{{/ footerLogo }}
+			{{> molecules-footer-nav }}
+			<h3 class="c-footer__heading">Call or Email</h3>
+			<div  class="v-card">
+				<a href="{{ url }}" class="c-footer__link tel">412-226-5006</a>
+				<a href="{{ url }}" class="c-footer__link email">paxtremeautoglasspros@gmail.com</a>
+			</div>
+			<h3 class="c-footer__heading">Addresses</h3>
+			<div class="c-footer__address v-card">
+				<address class="adr">
+					<span class="street-address">23 D Dewey Lane</span><br />
+					<span class="locality">Gibsonia</span>,
+					<abbr class="region" title="Pennsylvania">PA</abbr>
+					<span class="postal-code">15044</span>
+				</address>
+			</div>
+			<div class="c-footer__address v-card">
+				<address class="adr">
+					<span class="street-address">1735 E. Carson St., #409 D Dewey Lane</span><br />
+					<span class="locality">Pittsburgh</span>,
+					<abbr class="region" title="Pennsylvania">PA</abbr>
+					<span class="postal-code">15201</span>
+				</address>
+			</div>
+		</div>
+		<div class="c-footer__bottom">
+			<h3 class="c-footer__heading">Hours of Operation:</h3>
+			<p>7 Days A Week: 6AM - 9PM</p>
+			{{# footerLinkList }}
+			{{> molecules-link-list }}
+			{{/ footerLinkList }}
+			<p class="c-footer__copyright">&copy; {{ year }} {{ companyName }}. All rights reserved.</p>
+		</div>
 	</div><!-- end l -->
 
 </footer><!-- end c-footer -->

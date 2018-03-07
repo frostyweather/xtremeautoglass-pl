@@ -12,5 +12,38 @@
 		"styleModifier": "c-header__quote-btn js-get-quote",
 		"buttonText": "Get Quote"
 	},
-	"formSlideout": true
+	"formSlideout": true,
+	"footerLinkList": {
+		"linkList": {
+			"items": [
+				{
+					"cta": "Xtreme Autoglass Pros Pittsburgh"
+				},
+				{
+					"cta": "Wexford Autoglass Pros"
+				},
+				{
+					"cta": "Butler Autoglass Pros"
+				},
+				{
+					"cta": "Xtreme Autoglass Pros - Fox Chapel"
+				},
+				{
+					"cta": "Xtreme Autoglass Pros - Kittaning"
+				},
+				{
+					"cta": "Xtreme Autoglass Pros - North Hills"
+				},
+				{
+					"cta": "Xtreme Autoglass Pros - Oil City"
+				},
+				{
+					"cta": "Xtreme Autoglass Pros - Saxonburg"
+				},
+				{
+					"cta": "Xtreme Autoglass Pros - Sewickley"
+				}
+			]
+		}
+	}
 }

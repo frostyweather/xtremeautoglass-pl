@@ -48,6 +48,8 @@
 }
 
 .c-header__quote-link {
+	display: block;
+	margin-bottom: 1rem;
 	color: $color-white;
 	font-size: $font-size-large;
 	font-family: $font;
@@ -61,7 +63,8 @@
 
 .c-header__address {
 	color: $color-white;
-	font-size: $font-size-med;
+	font-family: $font-secondary;
+	text-transform: uppercase;
 }
 
 /**

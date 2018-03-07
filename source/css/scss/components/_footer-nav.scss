@@ -8,6 +8,7 @@
 .c-footer-nav {
 	display: block;
 	margin-right: 1rem;
+	margin-bottom: 2rem;
 }
 
 /**
@@ -16,9 +17,11 @@
 .c-footer-nav__list {
 	display: flex;
 	flex-direction: column;
+}
 
-	@media all and (min-width: $bp-small) {
-		flex-direction: row;
+.c-footer__bottom {
+	@media all and (min-width: $bp-large) {
+		margin-left: auto;
 	}
 }
 
@@ -27,6 +30,7 @@
  */
 .c-footer-nav__item {
 	width: 50%;
+	border-bottom: 1px solid $color-white;
 
 	@media all and (min-width: $bp-small) {
 		width: inherit;
@@ -38,14 +42,14 @@
  */
 .c-footer-nav__link {
 	font-family: $font-secondary;
-	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	display: block;
 	padding: 1rem 2rem 1rem 0;
 	color: $color-white;
 
-	&:hover, &:focus {
-		color: $color-gray-35;
+	&:hover,
+	&:focus {
+		color: $color-brand-yellow;
 	}
 }

@@ -36,8 +36,9 @@
  */
 .c-link-list__link {
 	display: flex;
-	padding: 1rem;
+	padding: 1rem 0;
 	color: $color-brand-blue;
+	font-family: $font-secondary;
 	cursor: pointer;
 	transition: background 0.2s ease color 0.2s ease;
 
@@ -45,6 +46,16 @@
 	&:focus {
 		background: $color-brand-blue;
 		color: $color-white;
+	}
+
+	.c-footer & {
+		color: $color-white;
+
+		&:hover,
+		&:focus {
+			color: $color-brand-yellow;
+			background: none;
+		}
 	}
 }
 
