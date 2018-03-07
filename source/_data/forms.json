@@ -51,7 +51,9 @@
 			},
 			{
 				"label": "Phone #"
-			},
+			}
+		],
+		"fields2": [
 			{
 				"label": "Year"
 			},
@@ -92,10 +94,16 @@
 				]
 			}
 		],
-		"textField": {
-			"styleModifier": "js-dropdown-form-target u-is-hidden",
-			"label": "Insurance Company"
-		},
+		"textField": [
+			{
+				"styleModifier": "js-form-dropdown-target u-is-hidden",
+				"label": "Insurance Company"
+			},
+			{
+				"styleModifier": "js-form-dropdown-target u-is-hidden",
+				"label": "Insurance Policty Number"
+			}
+		],
 		"radioFields2": [
 			{
 				"styleModifier": "c-field--span-full",

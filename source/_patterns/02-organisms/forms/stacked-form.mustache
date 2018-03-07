@@ -2,27 +2,39 @@
 	{{# formTitle }}
 	<h2 class="c-form__title c-section__title">{{ formTitle }}</h2>
 	{{/ formTitle }}
+	<h3 class="c-form__subsection-title">Step 1: Enter your Name and Address</h3>
 	{{# fields }}
 	{{> molecules-field }}
 	{{/ fields }}
 
-	{{# radioFields }}
-	{{> molecules-radio-field }}
-	{{/ radioFields }}
+	<div class="c-form__expanded js-step-2">
+		<h3 class="c-form__subsection-title js-step-2">Step 2: Enter your Vehicle Info</h3>
+		{{# fields2 }}
+		{{> molecules-field }}
+		{{/ fields2 }}
+		{{# radioFields }}
+		{{> molecules-radio-field }}
+		{{/ radioFields }}
 
-	{{# textField }}
-	{{> molecules-field }}
-	{{/ textField }}
+		{{# textField }}
+		{{> molecules-field }}
+		{{/ textField }}
 
-	{{# radioFields2 }}
-	{{> molecules-radio-field }}
-	{{/ radioFields2 }}
+		{{# radioFields2 }}
+		{{> molecules-radio-field }}
+		{{/ radioFields2 }}
 
 
 
-	<div class="c-form__actions c-field--span-full">
-		{{# formButton }}
-		{{> molecules-button }}
-		{{/ formButton }}
+		<div class="c-form__actions c-field--span-full">
+			{{# formButton }}
+			{{> molecules-button }}
+			{{/ formButton }}
+		</div>
 	</div>
 </form><!--end c-form--stacked-->
+{{# stepButton }}
+<div class="c-step">
+	{{> molecules-button }}
+</div>
+{{/ stepButton }}

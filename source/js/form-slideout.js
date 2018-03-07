@@ -30,15 +30,33 @@
 		});
 	}
 
-	var radioTrigger = document.querySelectorAll(".js-form-dropdown .js-radio-trigger");
+	var radioTrigger = document.querySelectorAll(".js-form-dropdown input[type='radio']");
 	for (i=0; i<radioTrigger.length; i++) {
 		radioTrigger[i].addEventListener("click", function(event) {
 			if(this.nextElementSibling.innerText == "Yes") {
-				document.querySelector(".js-dropdown-form-target").classList.remove("u-is-hidden");
+				var hiddenFields = document.querySelectorAll(".js-form-dropdown-target");
+				for (j=0; j<hiddenFields.length; j++) {
+					hiddenFields[j].classList.remove("u-is-hidden");
+				}
 			}
 			else {
-				document.querySelector(".js-dropdown-form-target").classList.add("u-is-hidden");
+				var hiddenFields = document.querySelectorAll(".js-form-dropdown-target");
+				for (j=0; j<hiddenFields.length; j++) {
+					hiddenFields[j].classList.add("u-is-hidden");
+				}
 			}
 		});
 	}
+
+	var stepHeading = document.querySelector(".js-step-2");
+
+	stepHeading.classList.add("u-is-hidden");
+
+	var nextButton = document.querySelector(".js-next-button");
+	nextButton.classList.remove("u-is-hidden");
+	nextButton.addEventListener("click", function(event) {
+		stepHeading.classList.remove("u-is-hidden");
+		this.parentNode.removeChild(nextButton);
+	})
+
 })();

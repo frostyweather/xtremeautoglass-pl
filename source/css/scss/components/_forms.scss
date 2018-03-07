@@ -36,3 +36,14 @@
 		}
 	}
 }
+
+.c-form__subsection-title {
+	.c-form-slideout & {
+		margin-bottom: 1rem;
+		color: $color-white;
+
+		@media all and (min-width: $bp-large-2) {
+			color: inherit;
+		}
+	}
+}

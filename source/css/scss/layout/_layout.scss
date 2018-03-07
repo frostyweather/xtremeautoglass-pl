@@ -24,6 +24,11 @@
  */
 .l-page-layout--two-column {
 	.l-page-layout__main {
+		.js & {
+			transform: translateY(100vh);
+			opacity: 0;
+		}
+		animation: fadeFromBottom 0.5s 1 forwards;
 		@media all and (min-width: $bp-large-2) {
 			width: 60%;
 		}
@@ -33,6 +38,11 @@
 	 * Sidebar
 	 */
 	.l-page-layout__secondary {
+		.js & {
+			opacity: 0;
+			transform: translateY(100vh);
+		}
+		animation: fadeFromBottom 1s 1 forwards;
 		@media all and (min-width: $bp-large-2) {
 			width: 40%;
 			margin-left: 2rem;
@@ -181,5 +191,31 @@
 		display: flex; /* 2 */
 		flex-wrap: wrap; /* 2 */
 		margin: 0 -0.5rem 1rem;
+	}
+}
+
+@keyframes scaleImage {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.25);
+	}
+
+	100% {
+		transform: scale(1.5);
+	}
+}
+
+@keyframes fadeFromBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(100vh);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
 	}
 }

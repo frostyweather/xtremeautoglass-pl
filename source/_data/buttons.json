@@ -7,5 +7,12 @@
 		"buttonIconAfter": {
 			"buttonIcon": "x"
 		}
+	},
+	"stepButton": {
+		"styleModifier": "c-step__btn js-next-button u-is-hidden",
+		"buttonText": "Go To Step 2",
+		"buttonIconAfter": {
+			"buttonIcon": "caret-down"
+		}
 	}
 }
