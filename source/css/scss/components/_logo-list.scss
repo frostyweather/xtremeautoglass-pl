@@ -15,3 +15,12 @@
 		margin: 0;
 	}
 }
+
+.c-logo-list__link {
+	opacity: 1;
+	transition: 0.2s $anim-speed-quick $anim-ease;
+	&:hover,
+	&:focus {
+		opacity: 0.6;
+	}
+}

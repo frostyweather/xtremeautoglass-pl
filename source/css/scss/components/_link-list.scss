@@ -11,6 +11,7 @@
 	padding: 0; /* 2 */
 	line-height: 1; /* 2 */
 	text-transform: uppercase;
+	font-size: $font-size-med-2;
 }
 
 /**
@@ -50,6 +51,7 @@
 
 	.c-footer & {
 		color: $color-white;
+		font-size: $font-size-med;
 
 		&:hover,
 		&:focus {
