@@ -46,4 +46,10 @@
 			color: inherit;
 		}
 	}
+
+	.c-form-slideout--menu & {
+		@media all and (min-width: $bp-large-2) {
+			color: $color-white;
+		}
+	}
 }

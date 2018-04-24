@@ -17,7 +17,8 @@
 	.c-navigation-bar.is-active & {
 		transform: translateX(0);
 		transition: transform 0.2s ease-in;
-		overflow: auto;
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
 		z-index: 4;
 
 		@media all and (min-width: $bp-large) {

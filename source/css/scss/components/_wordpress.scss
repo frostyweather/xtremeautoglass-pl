@@ -20,4 +20,10 @@ input[type="submit"].wpcf7-submit {
 	@media all and (min-width: $bp-large-2) {
 		color: $color-gray-73;
 	}
+
+	.c-form-slideout--menu & {
+		@media all and (min-width: $bp-large-2) {
+			color: $color-white;
+		}
+	}
 }
