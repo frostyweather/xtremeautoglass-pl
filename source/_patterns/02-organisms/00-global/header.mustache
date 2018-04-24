@@ -1,18 +1,23 @@
 <header class="c-header" role="banner">
 	<div class="c-header__inner">
 		<div class="c-header__top">
-
-			{{> molecules-logo-link }}
+			<div class="c-header__left">
+				{{> molecules-logo-link }}
+				<h3 class="c-header__tagline">We do it right the 1st time!</h3>
+			</div>
 
 			<div class="c-header__text">
-				{{# socialNavSection }}
-				{{> molecules-social-nav }}
-				{{/ socialNavSection }}
-				<a href="{{ url }}" class="v-card c-header__quote-link">
-					<h2 class="c-header__quote">Call For An Instant Quote</h2>
-					<span class="c-header__phone tel">412-226-5006</span>
-				</a>
-				<div class="v-card">
+				<div class="c-header__info">
+					<a href="{{ url }}" class="v-card c-header__quote-link">
+						<h2 class="c-header__quote">Call For An Instant Quote</h2>
+						<span class="c-header__phone tel">412-226-5006</span>
+					</a>
+					<span class="c-header__span">We work on all makes and models</span>
+				</div>
+				<div class="c-header__contact v-card">
+					{{# socialNavSection }}
+					{{> molecules-social-nav }}
+					{{/ socialNavSection }}
 					<address class="c-header__address adr">
 						<span class="street-address">23 D Dewey Lane</span><br />
 						<span class="locality">Gibsonia</span>,

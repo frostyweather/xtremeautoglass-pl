@@ -32,11 +32,55 @@
 		margin-bottom: 1rem;
 		text-align: left;
 	}
+
+	@media all and (min-width: $bp-large) {
+		align-items: center;
+	}
+}
+
+.c-header__tagline {
+	text-transform: uppercase;
+	color: $color-brand-yellow;
+	font-weight: normal;
+	font-style: italic;
+	text-shadow: 2px 2px $color-brand-yellow-dark;
+	margin-bottom: 1rem;
+
+	@media all and (min-width: $bp-large) {
+		text-align: center;
+	}
+}
+
+.c-header__span {
+	display: block;
+	font-family: $font-secondary;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
 }
 
 .c-header__text {
 	color: $color-white;
 	margin-left: auto;
+
+	@media all and (min-width: $bp-large) {
+		margin-left: 0;
+		display: flex;
+		flex: 1 0 auto;
+	}
+}
+
+.c-header__info {
+	@media all and (min-width: $bp-large) {
+		flex: 1;
+		text-align: center;
+	}
+}
+
+.c-header__contact {
+	@media all and (min-width: $bp-large) {
+		margin-left: auto;
+		text-align: center;
+	}
 }
 
 .c-header__quote {
@@ -49,7 +93,6 @@
 
 .c-header__quote-link {
 	display: block;
-	margin-bottom: 1rem;
 	color: $color-white;
 	font-size: $font-size-large;
 	font-family: $font;
