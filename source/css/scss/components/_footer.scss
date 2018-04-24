@@ -88,3 +88,51 @@
 	font-family: $font-secondary;
 	text-transform: uppercase;
 }
+
+.c-prefooter {
+	background: $color-gray-15;
+	box-shadow: 0 -5px 12px 0 $color-brand-yellow-dark;
+	border-bottom: 5px solid $color-brand-yellow-dark;
+}
+
+.c-prefooter__heading {
+	text-transform: uppercase;
+	font-size: $font-size-large;
+	margin-bottom: 2rem;
+
+	@media all and (min-width: $bp-med) {
+		font-size: 2rem;
+	}
+}
+.c-prefooter__list {
+	text-align: center;
+
+	@media all and (min-width: $bp-small) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.c-prefooter__item {
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+
+	&:last-child {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+
+	@media all and (min-width: $bp-small) {
+		margin-bottom: 0;
+	}
+}
+
+.c-prefooter__gas-monkey {
+	max-width: 10rem;
+}
+
+.c-prefooter__inner {
+	text-align: center;
+}

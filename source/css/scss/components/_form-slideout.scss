@@ -20,6 +20,7 @@
 		transform: translateX(-1rem);
 		overflow: auto;
 		transition: all 0.5s ease;
+		z-index: 4;
 	}
 
 	@media all and (min-width: $bp-large-2) {

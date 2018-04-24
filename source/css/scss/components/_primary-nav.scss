@@ -18,6 +18,7 @@
 		transform: translateX(0);
 		transition: transform 0.2s ease-in;
 		overflow: auto;
+		z-index: 4;
 
 		@media all and (min-width: $bp-large) {
 			display: flex;

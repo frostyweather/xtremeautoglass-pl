@@ -10,6 +10,7 @@
 	box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, 0.2);
 	padding: 0.5em 0;
 	background: $color-brand-blue;
+	z-index: 3;
 
 	@media all and (min-height: $bp-large) {
 		padding: 1em 0;
@@ -46,6 +47,10 @@
 	text-shadow: 2px 2px $color-brand-yellow-dark;
 	margin-bottom: 1rem;
 
+	@media all and (min-width: $bp-small-2) {
+		margin-bottom: 0;
+	}
+
 	@media all and (min-width: $bp-large) {
 		text-align: center;
 	}
@@ -56,6 +61,10 @@
 	font-family: $font-secondary;
 	text-transform: uppercase;
 	margin-bottom: 1rem;
+
+	@media all and (min-width: $bp-large) {
+		margin-bottom: 0;
+	}
 }
 
 .c-header__text {
@@ -65,7 +74,7 @@
 	@media all and (min-width: $bp-large) {
 		margin-left: 0;
 		display: flex;
-		align-items: center;
+		align-items: flex-end;
 		flex: 1 0 auto;
 	}
 }
@@ -163,7 +172,7 @@
 	background-size: cover;
 	background-position: -0.5rem bottom;
 	background-repeat: no-repeat;
-	z-index: 1;
+	z-index: 4;
 }
 
 .c-navigation-bar__inner {
