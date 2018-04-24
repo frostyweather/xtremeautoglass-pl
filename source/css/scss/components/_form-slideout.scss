@@ -14,14 +14,14 @@
 	background: $color-brand-blue;
 	transform: translateX(calc(-100% - 1rem));
 	transition: all 0s ease;
-	z-index: 2;
+	z-index: 5;
 
 	&.is-active {
 		transform: translateX(-1rem);
 		overflow: scroll;
 		-webkit-overflow-scrolling: touch;
 		transition: all 0.5s ease;
-		z-index: 4;
+		z-index: 5;
 	}
 
 	@media all and (min-width: $bp-large-2) {

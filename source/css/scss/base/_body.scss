@@ -17,6 +17,6 @@ body {
 	&.is-disabled {
 		overflow: hidden;
 		width: 100%;
-		min-height: 100%;
+		height: 100vh;
 	}
 }

@@ -144,6 +144,10 @@
 	@media all and (min-width: $bp-large-2) {
 		display: none;
 	}
+
+	.error404 & {
+		display: none;
+	}
 }
 
 .c-header__quote-btn--visible {
