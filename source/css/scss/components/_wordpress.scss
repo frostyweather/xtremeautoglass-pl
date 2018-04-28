@@ -27,4 +27,29 @@ input[type="submit"].wpcf7-submit {
 			color: $color-white;
 		}
 	}
+
+	.page-template-page-get-quote & {
+		color: $color-gray-73;
+	}
+}
+
+span.wpcf7-not-valid-tip {
+	background: $color-utility-negative !important;
+	color: $color-white !important;
+	font-size: $font-size-small-2;
+	padding: 0.2rem;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+	border: none !important;
+	background: $color-utility-caution !important;
+	color: $color-white !important;
+	font-size: $font-size-small-2 !important;
+}
+
+div.wpcf7-mail-sent-ok {
+	border: none !important;
+	background: $color-utility-positive !important;
+	color: $color-white !important;
+	font-size: $font-size-small-2 !important;
 }

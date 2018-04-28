@@ -75,6 +75,14 @@
 	}
 }
 
+.c-primary-nav__item {
+	.c-primary-nav__sublist & {
+		@media all and (min-width: $bp-large) {
+			width: 50%;
+		}
+	}
+}
+
 .c-primary-nav__item--highlight {
 	background: $color-brand-gray;
 	color: $color-white;
@@ -163,6 +171,8 @@
 	}
 
 	@media all and (min-width: $bp-large) {
+		display: flex;
+		flex-wrap: wrap;
 		position: absolute;
 		margin-left: 0;
 		border-left: none;
