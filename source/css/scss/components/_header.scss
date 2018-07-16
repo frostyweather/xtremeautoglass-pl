@@ -12,7 +12,7 @@
 	background: $color-brand-blue;
 	z-index: 3;
 
-	@media all and (min-height: $bp-large) {
+	@media all and (min-height: $bp-large-2) {
 		padding: 1em 0;
 	}
 }
@@ -34,7 +34,7 @@
 		text-align: left;
 	}
 
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		align-items: center;
 	}
 }
@@ -51,7 +51,7 @@
 		margin-bottom: 0;
 	}
 
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		text-align: center;
 	}
 }
@@ -62,7 +62,7 @@
 	text-transform: uppercase;
 	margin-bottom: 1rem;
 
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		margin-bottom: 0;
 	}
 }
@@ -71,7 +71,7 @@
 	color: $color-white;
 	margin-left: auto;
 
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		margin-left: 0;
 		display: flex;
 		align-items: flex-end;
@@ -80,14 +80,14 @@
 }
 
 .c-header__info {
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		flex: 1;
 		text-align: center;
 	}
 }
 
 .c-header__contact {
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		margin-left: auto;
 		text-align: center;
 	}
@@ -132,13 +132,13 @@
 
 .c-header__nav-btn {
 	margin-right: 1rem;
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		display: none;
 	}
 }
 
 .c-header__quote-btn {
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		margin-left: 5rem;
 	}
 	@media all and (min-width: $bp-large-2) {
@@ -161,7 +161,7 @@
 	top: 0;
 	right: 0;
 
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		display: none;
 	}
 }
@@ -188,7 +188,7 @@
 		position: static;
 	}
 
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		align-items: center;
 	}
 }

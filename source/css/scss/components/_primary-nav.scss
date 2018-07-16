@@ -21,7 +21,7 @@
 		-webkit-overflow-scrolling: touch;
 		z-index: 4;
 
-		@media all and (min-width: $bp-large) {
+		@media all and (min-width: $bp-large-2) {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -38,7 +38,7 @@
 		}
 	}
 
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -60,7 +60,7 @@
 	display: block;
 	padding: 0.5rem;
 
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		background: rgba(0, 0, 0, 0.5);
 	}
 }
@@ -69,7 +69,7 @@
  * Nav List
  */
 .c-primary-nav__list {
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		display: flex;
 		align-items: center;
 	}
@@ -77,7 +77,7 @@
 
 .c-primary-nav__item {
 	.c-primary-nav__sublist & {
-		@media all and (min-width: $bp-large) {
+		@media all and (min-width: $bp-large-2) {
 			width: 50%;
 		}
 	}
@@ -110,7 +110,7 @@
 		&:focus {
 			background: $color-brand-yellow;
 
-			@media all and (min-width: $bp-large) {
+			@media all and (min-width: $bp-large-2) {
 				background: $color-brand-blue;
 				color: $color-brand-yellow;
 			}
@@ -124,7 +124,7 @@
 	.c-navigation-bar & {
 		color: $color-white;
 
-		@media all and (min-width: $bp-large) {
+		@media all and (min-width: $bp-large-2) {
 			color: $color-white;
 			font-size: $font-size-med;
 		}
@@ -170,7 +170,7 @@
 		max-height: 60rem;
 	}
 
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		display: flex;
 		flex-wrap: wrap;
 		position: absolute;
@@ -195,12 +195,12 @@
 	.c-primary-nav__item.is-active & {
 		transform: rotate(0deg);
 
-		@media all and (min-width: $bp-large) {
+		@media all and (min-width: $bp-large-2) {
 			transform: rotate(180deg);
 		}
 	}
 
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-large-2) {
 		transform: rotate(0deg);
 	}
 }
